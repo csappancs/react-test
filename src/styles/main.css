@@ -1,10 +1,15 @@
 @import "Menubar";
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
 }
 
-body{
-    font-family: 'Rubik', sans-serif;
+:root {
+	--mainColor: black;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
 }
