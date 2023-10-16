@@ -1,0 +1,10 @@
+@import "Menubar";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
