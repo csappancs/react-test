@@ -16,7 +16,7 @@ function Navbar() {
 		<header>
 			<Link to="/"><img src={Logo} alt="" /></Link>
 			<nav ref={navRef}>
-				<Link to="/#">Homse</Link>
+				<Link to="/">Home</Link>
 				<Link to="/#">My work</Link>
 				<Link to="/#">Blog</Link>
 				<Link to="/about">About me</Link>
