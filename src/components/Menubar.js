@@ -15,7 +15,7 @@ function Navbar() {
 		<header>
 			<a href="#"><img src={Logo} alt="" /></a>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
+				<a href="/#">Homse</a>
 				<a href="/#">My work</a>
 				<a href="/#">Blog</a>
 				<a href="/#">About me</a>
