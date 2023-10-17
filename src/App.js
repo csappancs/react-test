@@ -1,20 +1,30 @@
 import Menubar from "./components/Menubar";
 import Footer from "./components/Footer";
-import Content from "./components/Content";
-import Hero from "./components/Hero";
-
+import Home from "../src/pages/Home"
+import About from "../src/pages/About"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom/";
 import "./styles/main.css"
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Menubar/>
-        <Hero/>
-        <Content/>
+    <Router>
+      <div className="App">
+        <div>
+          <Menubar/>
+            <Switch>
+              <Route exact path="/"> 
+                <Home/>
+              </Route>
+            </Switch>
+            <Switch>
+              <Route path="/about"> 
+                <About/>
+              </Route>
+            </Switch>
+        </div>
+          <Footer/>
       </div>
-        <Footer/>
-    </div>
+    </Router>
   );
 }
 
