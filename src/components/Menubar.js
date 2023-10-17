@@ -18,7 +18,7 @@ function Navbar() {
 			<nav ref={navRef}>
 				<Link to="/">Home</Link>
 				<Link to="/#">My work</Link>
-				<Link to="/#">Blog</Link>
+				<Link to="/#">Blogg</Link>
 				<Link to="/about">About me</Link>
 				<button
 					className="nav-btn nav-close-btn"
