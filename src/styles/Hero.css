@@ -24,6 +24,18 @@
     text-align: center;
 }
 
+.hero-button{
+    font: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #01b3e3;
+    color: white;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 992px) {
     .herocont .herotitle h1{
         font-size: 30px;

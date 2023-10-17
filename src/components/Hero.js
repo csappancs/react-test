@@ -9,8 +9,8 @@ export default function Hero() {
         <div className='herosubtitle'>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, odit?</h3>
         </div>
-        <button>
-            Nyomd meg!
+        <button className='hero-button'>
+            Nyomd meg most!!!
         </button>
     </div>
   )
