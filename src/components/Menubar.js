@@ -15,22 +15,22 @@ function Navbar() {
 	return (
 		<header>
 			<Link to="/"><img src={Logo} alt="" /></Link>
-			<nav ref={navRef}>
-				<Link to="/">Home</Link>
-				<Link to="/#">My work</Link>
-				<Link to="/#">Blog</Link>
-				<Link to="/about">About me</Link>
+				<nav ref={navRef}>
+					<Link to="/">Home</Link>
+					<Link to="/#">My work</Link>
+					<Link to="/#">Blog</Link>
+					<Link to="/about">About me</Link>
+					<button
+						className="nav-btn nav-close-btn"
+						onClick={showNavbar}>
+						<FaTimes />
+					</button>
+				</nav>
 				<button
-					className="nav-btn nav-close-btn"
+					className="nav-btn"
 					onClick={showNavbar}>
-					<FaTimes />
+					<FaBars />
 				</button>
-			</nav>
-			<button
-				className="nav-btn"
-				onClick={showNavbar}>
-				<FaBars />
-			</button>
 		</header>
 	);
 }
