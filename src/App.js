@@ -5,7 +5,7 @@ import About from "../src/pages/About";
 import Contact from "../src/pages/Contact";
 import Products from "../src/pages/Products";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom/";
-import "./styles/main.css"
+import "../src/styles/main.css"
 
 function App() {
   return (
