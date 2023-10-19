@@ -24,7 +24,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: blue;
+    background-color: #c3a36a;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -33,6 +33,14 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #cfa968;
   }
   
+  .contact-blocks{
+    display: flex;
+    padding: 50px;
+  }
+
+  .contact-blocks > div{
+    margin: 0 50px;
+  }
