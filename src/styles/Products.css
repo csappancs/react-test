@@ -1,15 +1,13 @@
 .product-preview{
     display: flex;
     flex-direction: column;
-    justify-self: center;
     align-items: center;
 }
 
-.product-lists{
+.product-lists {
     display: flex;
-    justify-self: center;
-    align-items: center;
-    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .single-product{
