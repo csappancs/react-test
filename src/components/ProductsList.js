@@ -10,7 +10,7 @@ export default function ProductsList(props) {
         <div className='product-lists'>
             {products.map((product) => (
                 <div key={product.id} className='single-product'>
-                        <h2>{product.prodName}</h2>
+                        <h3>{product.prodName}</h3>
                         <p>About {product.prodName}: {product.body}</p>
                         <button>Learn more</button>
                 </div>

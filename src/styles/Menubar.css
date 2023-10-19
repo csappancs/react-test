@@ -60,7 +60,7 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--mainColor);
+		background-color: white;
 		transition: 0.3s;
 	}
 

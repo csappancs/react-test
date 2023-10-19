@@ -35,6 +35,10 @@ h2{
 	font-size: clamp(2.25rem, 1.2778rem + 2.2222vw, 3.5rem);
 }
 
+h3{
+	font-size: clamp(1.25rem, 1.0556rem + 0.4444vw, 1.5rem);
+}
+
 p{
 	font-size: clamp(1rem, 0.9028rem + 0.2222vw, 1.125rem);
 }
