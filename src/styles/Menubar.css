@@ -4,8 +4,9 @@ header {
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 2rem;
-	background-color: var(--mainColor);
-	color: var(--textColor);
+	background-color: white;
+	color: black;
+	box-shadow: 0 1px 10px 10px rgb(248, 248, 248);
 }
 
 header img{
@@ -14,7 +15,7 @@ header img{
 
 nav a {
 	margin: 0 1rem;
-	color: var(--textColor);
+	color: black;
 	text-decoration: none;
 }
 
@@ -28,7 +29,7 @@ header .nav-btn {
 	background: transparent;
 	border: none;
 	outline: none;
-	color: var(--textColor);
+	color: black;
     display: none;
 	opacity: 0;
 	font-size: 1.8rem;

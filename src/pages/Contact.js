@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className='contact-container'>
         <div className='contact'>
-            <h1>CONTACT</h1>
+            <h2>Contact</h2>
             <form action="/action_page.php">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name.."/>

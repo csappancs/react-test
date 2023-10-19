@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Logo from "../img/logo.png"
+import Logo from "../img/logo.svg"
 import { Link } from "react-router-dom";
 
 function Navbar() {
