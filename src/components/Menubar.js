@@ -17,7 +17,7 @@ function Navbar() {
 			<Link to="/"><img src={Logo} alt="" /></Link>
 				<nav ref={navRef}>
 					<Link to="/">Home</Link>
-					<Link to="/products">Product</Link>
+					<Link to="/products">Products</Link>
 					<Link to="/contact">Contact</Link>
 					<Link to="/about">About me</Link>
 					<button

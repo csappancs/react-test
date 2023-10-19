@@ -1,0 +1,18 @@
+.product-preview{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.product-lists{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.single-product{
+    padding: 30px;
+    text-align: center;
+}
