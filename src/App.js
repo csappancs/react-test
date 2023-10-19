@@ -1,7 +1,9 @@
 import Menubar from "./components/Menubar";
 import Footer from "./components/Footer";
-import Home from "../src/pages/Home"
-import About from "../src/pages/About"
+import Home from "../src/pages/Home";
+import About from "../src/pages/About";
+import Contact from "../src/pages/Contact";
+import Products from "../src/pages/Products";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom/";
 import "./styles/main.css"
 
@@ -17,8 +19,18 @@ function App() {
               </Route>
             </Switch>
             <Switch>
+              <Route path="/products"> 
+                <Products/>
+              </Route>
+            </Switch>
+            <Switch>
               <Route path="/about"> 
                 <About/>
+              </Route>
+            </Switch>
+            <Switch>
+              <Route path="/contact"> 
+                <Contact/>
               </Route>
             </Switch>
         </div>
