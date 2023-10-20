@@ -1,5 +1,6 @@
 .product-page{
     display: flex;
+    height: 100vh;
 }
 
 .product-preview{
@@ -10,13 +11,19 @@
 
 .product-lists {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .single-product{
-    padding: 30px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 350px;
+    min-width: 350px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .filter-bar{
@@ -36,6 +43,14 @@
     margin: 10px 0px 10px 0px;
     justify-content: center;
     align-items: center;
+}
+
+.product-category-title{
+    text-align: center;
+}
+
+.products{
+    width: 100%;
 }
 
 @media screen and (max-width: 700px){

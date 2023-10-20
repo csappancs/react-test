@@ -6,13 +6,14 @@ export default function ProductsList(props) {
 
   return (
     <div className='product-preview'>
-        <h2> {title} </h2>
+        <h2 className='product-category-title'> {title} </h2>
         <div className='product-lists'>
             {products.map((product) => (
                 <div key={product.id} className='single-product'>
-                        <h3>{product.prodName}</h3>
-                        <p>About {product.prodName}: {product.body}</p>
-                        <button>Learn more</button>
+                  <img src={product.image} alt="test" height={170} width={255}/>
+                  <h3>{product.prodName}</h3>
+                  <p>About {product.prodName}: {product.body}</p>
+                  <button>Learn more</button>
                 </div>
             ))}
         </div>
