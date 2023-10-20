@@ -1,5 +1,8 @@
 
 export default function Footer() {
+
+    const currentYear = new Date().getFullYear();
+
   return (
     <div className="footer">
         <div className="footer-menu">
@@ -15,7 +18,7 @@ export default function Footer() {
             <a href=""><i class="fa fa-youtube-play" aria-hidden="true"/></a>
         </div>
         <div className="copyright">
-            <p>2023 Copyright. <a href="https://adamcsapo.com" target="_blank">Csapó Ádám</a></p>
+            <p>© {currentYear} Copyright. <a href="https://google.com" target="_blank">Csapó Ádám</a></p>
         </div>
     </div>
   )

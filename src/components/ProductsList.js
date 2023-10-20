@@ -10,7 +10,7 @@ export default function ProductsList(props) {
         <div className='product-lists'>
             {products.map((product) => (
                 <div key={product.id} className='single-product'>
-                  <img src={product.image} alt="test" height={170} width={255}/>
+                  <img src={product.image} alt="product image is missing" height={170} width={255}/>
                   <h3>{product.prodName}</h3>
                   <p>About {product.prodName}: {product.body}</p>
                   <button>Learn more</button>
