@@ -19,6 +19,7 @@ function Navbar() {
 					<Link to="/">Home</Link>
 					<Link to="/products">Products</Link>
 					<Link to="/about">About Us</Link>
+					<Link to="/jatszos">Jatszos</Link>
 					<Link to="/contact">Contact</Link>
 					<button
 						className="nav-btn nav-close-btn"

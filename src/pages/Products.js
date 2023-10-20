@@ -14,12 +14,16 @@ const Products = () => {
     return (
         <div className='product-page'>
             <div className='filter-bar'>
-                <h3>Filter bar</h3>
+                <h3>Product Categories</h3>
+                <button>Speed Camers</button>
+                <button>Recognition Cameras</button>
+                <button>Software</button>
+                <button>Document Reading</button>
             </div>
             <div className='products'>
+                <ProductsList products={products}  title="All products"/>
                 <ProductsList products={products.filter((products) => products.category === "speed camera")}  title="Speed Cameras"/>
                 <ProductsList products={products.filter((products) => products.category === "ADR camera")}  title="ADR Cameras"/>
-                <ProductsList products={products}  title="All products"/>
             </div>
         </div>
     )

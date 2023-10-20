@@ -48,9 +48,21 @@ button{
 		font-weight: bold;
 		font-size: 18px;
 		padding: 5px 30px;
-		border-radius: 10px;
+		border-radius: 5px;
 		border: none;
 		background-color: #c3a36a;
 		color: white;
 		cursor: pointer;
+}
+
+.calculator{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
 }

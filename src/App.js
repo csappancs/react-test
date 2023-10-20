@@ -6,6 +6,7 @@ import Contact from "../src/pages/Contact";
 import Products from "../src/pages/Products";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom/";
 import "../src/styles/main.css"
+import Jatszos from "./pages/Jatszos";
 
 function App() {
   return (
@@ -31,6 +32,11 @@ function App() {
             <Switch>
               <Route path="/contact"> 
                 <Contact/>
+              </Route>
+            </Switch>
+            <Switch>
+              <Route path="/jatszos"> 
+                <Jatszos/>
               </Route>
             </Switch>
         </div>
